@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background: #405665;
+}
+
+.container{
+    max-width: 400px;
+    max-height: 500px;
+    box-shadow: 2px 2px 20px #363636;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    background: #eee;
+}
+
+@media (max-width: 700px){
+    .container{
+        max-width: 350px;
+    }
+}
+
+
+.itens{
+    display: block;
+    margin: 0 auto;
+}
+.itens > h1{
+    text-align: center;
+}
+
+
+.inputs{
+    padding: 10px 0;
+}
+.inputs > input{
+    width: 300px;
+    height: 40px;
+    font-size: 1.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    padding-left: 20px;
+}
+.inputs > input:focus{
+    outline: 0;
+}
+.inputs > button{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: 1px solid #4169E1;
+    transition: all ease 0.3s;
+    background: #4169E1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.recovery{
+    margin-left: 60%;
+}
+
+.alternative{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.icons > img{
+    width: 34px;
+    cursor: pointer;
+}
+
+.cadastro{
+    text-align: center;
+    margin-top: 35px;
+}
